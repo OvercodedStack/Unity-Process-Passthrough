@@ -1,0 +1,22 @@
+﻿  StartProcessUnity.cpp
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(34,1): warning C4273: 'StoreTestValue': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(17,39): message : see previous definition of 'StoreTestValue'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(39,1): warning C4273: 'RetrieveValue': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(18,38): message : see previous definition of 'RetrieveValue'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(45,1): warning C4273: 'TestCall': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(16,39): message : see previous definition of 'TestCall'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(97,1): warning C4273: 'KillAllProcessHandles': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(28,39): message : see previous definition of 'KillAllProcessHandles'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(109,1): warning C4273: 'StartProcess': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(22,38): message : see previous definition of 'StartProcess'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(185,1): warning C4273: 'WriteToActiveProcess': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(26,38): message : see previous definition of 'WriteToActiveProcess'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(186,41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(187,11): warning C4101: 'dwRead': unreferenced local variable
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(203,1): warning C4273: 'ReadFromActiveProcess': inconsistent dll linkage
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.h(27,40): message : see previous definition of 'ReadFromActiveProcess'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(204,19): warning C4101: 'dwWritten': unreferenced local variable
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(223,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(64): warning C4172: returning address of local variable or temporary: wtext
+C:\Users\Botan\source\repos\StartProcessUnity\StartProcessUnity\StartProcessUnity.cpp(213): warning C4172: returning address of local variable or temporary: chBuf
+  StartProcessUnity.vcxproj -> C:\Users\Botan\source\repos\StartProcessUnity\x64\Debug\StartProcessUnity.exe
