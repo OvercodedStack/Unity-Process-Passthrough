@@ -1,7 +1,7 @@
 # Unity-Process-Passthrough
 
 
-Unity Process Passthrough (UPP) is part of Collecting and Logging OpenVR Data from SteamVR Applications (CLOVR), which offers a way of calling a process and using it as if it were run by a command line application. The official way of passing a process to start through either the Unity Editor or a compliled Unity application is to use Process.Start() from System.Diagnostics pacakge in Unity. However, this does not guarantee a started application will startup/shutdown or command line IO. This led to many [angry forum posts](https://forum.unity.com/threads/solved-il2cpp-and-process-start.533988/) where Unity admits this is not a resolved issue yet. 
+Unity Process Passthrough (UPP) is part of Collecting and Logging OpenVR Data from SteamVR Applications ([CLOVR](https://github.com/xrtlab/clovr)), which offers a way of calling a process and using it as if it were run by a command line application. The official way of passing a process to start through either the Unity Editor or a compliled Unity application is to use Process.Start() from System.Diagnostics pacakge in Unity. However, this does not guarantee a started application will startup/shutdown or command line IO. This led to many [angry forum posts](https://forum.unity.com/threads/solved-il2cpp-and-process-start.533988/) where Unity admits this is not a resolved issue yet. 
 
 UPP aims to resolve this issue and remain a level of freeware for other Unity packages. This package originally was intended to run Open Broadcasting Software (OBS) for [CLOVR](https://github.com/xrtlab/clovr) which meant passing a variable from Unity to a console application and starting or closing the application. 
 
